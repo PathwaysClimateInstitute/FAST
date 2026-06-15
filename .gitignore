@@ -106,3 +106,22 @@ venv.bak/
 #custom folders
 _Python_env
 GDAL
+
+# NEW
+# Keep folder structure but ignore contents
+Clip/*
+!Clip/.gitkeep
+
+data/*
+!data/.gitkeep
+
+rasters/*
+!rasters/.gitkeep
+
+*.xlsx
+
+UDF/CoastalA/*
+UDF/CoastalV*
+UDF/NSI_Solano_FAST.csv
+Log/app.log
+/Log
